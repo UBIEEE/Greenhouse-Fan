@@ -1,6 +1,6 @@
 #include <Arduino.h>
+#include <Adafruit_SHT4x.h>
 
-// CONSTANTS //
 const int FAN_PWM_PIN = 9; // Pin for PWM control of the fan
 const int TEMP_SENSOR_PIN = A0; // Pin for temperature sensor input
 
